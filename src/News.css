@@ -1,0 +1,18 @@
+main .container-new{
+    padding-top: 20px;
+    min-height: 60px;
+}
+
+main .col-sm-6 .card{
+    border: none;
+}
+
+.divine-news{
+    background-color: rgb(191, 49, 32);
+    margin-top: 0.66em;
+    height: 3px;
+    display: block;
+    margin: 1em 0 1em;
+    width: 100%;
+    max-width: 30px;
+}

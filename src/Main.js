@@ -5,6 +5,38 @@ class Main extends React.Component {
     render() {
         return (
             <>
+
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src={"./img/carousel/slide-show-1.png"} class="d-block w-100" alt=""></img>
+                        </div>
+                        <div class="carousel-item">
+                            <img src={"./img/carousel/slide-show-1.png"} class="d-block w-100" alt=""></img>
+                        </div>
+                        <div class="carousel-item">
+                            <img src={"./img/carousel/slide-show-1.png"} class="d-block w-100" alt=""></img>
+                        </div>
+                        <div class="carousel-item">
+                            <img src={"./img/carousel/slide-show-1.png"} class="d-block w-100" alt=""></img>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
                 <div class='new-section'>
                     <div class='row section-row mx-auto'>
                         <div class='col-12 first-col'>
@@ -214,9 +246,9 @@ class Main extends React.Component {
                             <div class='col-9 first-col'>
                                 <h2>HỢP TÁC ĐỐI NGOẠI</h2>
                                 <p class='text-center'>
-                                Trường CNTT&TT luôn coi trọng các hoạt động hợp tác quốc 
-                                tế và hợp tác doanh nghiệp để nâng cao chất lượng các hoạt
-                                 giảng dạy, nghiên cứu và chuyển giao công nghệ.
+                                    Trường CNTT&TT luôn coi trọng các hoạt động hợp tác quốc
+                                    tế và hợp tác doanh nghiệp để nâng cao chất lượng các hoạt
+                                    giảng dạy, nghiên cứu và chuyển giao công nghệ.
                                 </p>
                             </div>
 
@@ -231,12 +263,12 @@ class Main extends React.Component {
                                         <div class="col-6 cols-inner">
                                             <h5>CÁC TRƯỜNG ĐỐI TÁC</h5>
                                             <p class='lh-2'>Trường CNTT&TT có quan hệ hợp tác với nhiều trường đại học và
-                                                 viện nghiên cứu uy tín trên Thế giới. Thông qua hợp tác, sinh 
-                                                 viên của Trường có cơ hội học tập, nghiên cứu tại các trường đối 
-                                                 tác thông qua các học bổng trao đổi sinh viên, cũng như các dự án
-                                                  hợp tác nghiên cứu. Trường hợp tác với các đại học lớn ở Châu Âu, 
-                                                  Nhật Bản… để cung cấp cho sinh viên các chương trình đào tạo song
-                                                   bằng (double degree), một hình thức “du học” kinh tế và hiệu quả…
+                                                viện nghiên cứu uy tín trên Thế giới. Thông qua hợp tác, sinh
+                                                viên của Trường có cơ hội học tập, nghiên cứu tại các trường đối
+                                                tác thông qua các học bổng trao đổi sinh viên, cũng như các dự án
+                                                hợp tác nghiên cứu. Trường hợp tác với các đại học lớn ở Châu Âu,
+                                                Nhật Bản… để cung cấp cho sinh viên các chương trình đào tạo song
+                                                bằng (double degree), một hình thức “du học” kinh tế và hiệu quả…
                                             </p>
                                         </div>
                                     </div>
@@ -255,11 +287,11 @@ class Main extends React.Component {
                                         </div>
                                         <div class="col-6 cols-inner">
                                             <h5>DOANH NGHIỆP ĐỐI TÁC</h5>
-                                            <p>Đào tạo và nghiên cứu rất cần sự hợp tác thực chất với cộng đồng doanh nghiệp. 
+                                            <p>Đào tạo và nghiên cứu rất cần sự hợp tác thực chất với cộng đồng doanh nghiệp.
                                                 Trường hiện đang duy trì hợp tác với mạng lưới gồm hơn 130 doanh nghiệp CNTT
-                                                 trong và ngoài nước, trong đó có thể kể tới HEDSPI Supporting Partner Network 
-                                                 (HEDSPI-SPN), mạng lưới hỗ trợ sinh viên tăng cường ngoại ngữ, phát triển kỹ năng mềm, 
-                                                 cũng như làm quen với văn hóa DN để gia tăng sức cạnh tranh trong thị trường lao động quốc tế…
+                                                trong và ngoài nước, trong đó có thể kể tới HEDSPI Supporting Partner Network
+                                                (HEDSPI-SPN), mạng lưới hỗ trợ sinh viên tăng cường ngoại ngữ, phát triển kỹ năng mềm,
+                                                cũng như làm quen với văn hóa DN để gia tăng sức cạnh tranh trong thị trường lao động quốc tế…
                                             </p>
                                         </div>
                                     </div>
@@ -339,14 +371,14 @@ class Main extends React.Component {
                                 <div class='col'>
                                     <blockquote>
                                         <p class='text-light text-para'>
-                                        Sinh viên Trường CNTT&TT không chỉ được biết đến với nền tảng kiến thức kỹ thuật 
-                                        sắc bén và sự thích ứng tuyệt vời với bất kỳ nhiệm vụ nào được giao, mà còn được
-                                         đánh giá cao bởi tư duy phản biện và sáng tạo. Trong SVMC, sinh viên ĐHBK Hà Nội
-                                          nói chung và sinh viên Trường CNTT&TT nói riêng luôn giữ các vị trí quan trọng, 
-                                          và trở thành thành viên chủ chốt trong nhiều dự án cốt lõi của Trung tâm. Trường
-                                           và SVMC đã củng cố mối quan hệ bền chặt, được thể hiện thông qua văn bản hợp tác
-                                            chính thức, mở đường cho các hoạt động tài trợ tăng cường năng lực, cũng như 
-                                            học bổng cho sinh viên. Hiện tại, hơn 25% nhân viên của SVMC đã tốt nghiệp từ 
+                                            Sinh viên Trường CNTT&TT không chỉ được biết đến với nền tảng kiến thức kỹ thuật
+                                            sắc bén và sự thích ứng tuyệt vời với bất kỳ nhiệm vụ nào được giao, mà còn được
+                                            đánh giá cao bởi tư duy phản biện và sáng tạo. Trong SVMC, sinh viên ĐHBK Hà Nội
+                                            nói chung và sinh viên Trường CNTT&TT nói riêng luôn giữ các vị trí quan trọng,
+                                            và trở thành thành viên chủ chốt trong nhiều dự án cốt lõi của Trung tâm. Trường
+                                            và SVMC đã củng cố mối quan hệ bền chặt, được thể hiện thông qua văn bản hợp tác
+                                            chính thức, mở đường cho các hoạt động tài trợ tăng cường năng lực, cũng như
+                                            học bổng cho sinh viên. Hiện tại, hơn 25% nhân viên của SVMC đã tốt nghiệp từ
                                             ĐHBK Hà Nội, trong đó có Trường CNTT&TT, và ...
                                         </p>
                                     </blockquote>
@@ -384,12 +416,12 @@ class Main extends React.Component {
 
                                     <p>
                                         <span class='text-fs-3'>
-                                        trên Thế giới trong nhóm ngành Khoa học Máy tính và Hệ thống Thông tin 
+                                            trên Thế giới trong nhóm ngành Khoa học Máy tính và Hệ thống Thông tin
                                         </span>
                                     </p>
                                 </div>
                                 <div class='col-3 second-col text-align-center'>
-                                <p class='m-0'>
+                                    <p class='m-0'>
                                         <span class='text-fs-1'>Sinh viên thuộc TOP</span>
                                     </p>
 
@@ -401,12 +433,12 @@ class Main extends React.Component {
 
                                     <p>
                                         <span class='text-fs-3'>
-                                        điểm cao nhất Khối A Toàn quốc mùa Tuyển sinh 2019 
+                                            điểm cao nhất Khối A Toàn quốc mùa Tuyển sinh 2019
                                         </span>
                                     </p>
                                 </div>
                                 <div class='col-2 second-col text-align-center'>
-                                <p class='m-0'>
+                                    <p class='m-0'>
                                         <span class='text-fs-1'>Sinh viên</span>
                                     </p>
 
@@ -418,12 +450,12 @@ class Main extends React.Component {
 
                                     <p>
                                         <span class='text-fs-3'>
-                                        
+
                                         </span>
                                     </p>
                                 </div>
                                 <div class='col-3 second-col text-align-center'>
-                                <p class='m-0'>
+                                    <p class='m-0'>
                                         <span class='text-fs-1'>Chương trình đào tạo</span>
                                     </p>
 
@@ -435,12 +467,12 @@ class Main extends React.Component {
 
                                     <p>
                                         <span class='text-fs-3'>
-                                         thuộc các hệ đào tạo cử nhân, kỹ sư, thạc sỹ khoa học, tiến sỹ
+                                            thuộc các hệ đào tạo cử nhân, kỹ sư, thạc sỹ khoa học, tiến sỹ
                                         </span>
                                     </p>
                                 </div>
                                 <div class='col-2 second-col text-align-center'>
-                                <p class='m-0'>
+                                    <p class='m-0'>
                                         <span class='text-fs-1'>Đối tác</span>
                                     </p>
 
@@ -452,7 +484,7 @@ class Main extends React.Component {
 
                                     <p>
                                         <span class='text-fs-3'>
-                                        các trường đại học, viện nghiên cứu, tập đoàn, công ty trong nước và quốc tế
+                                            các trường đại học, viện nghiên cứu, tập đoàn, công ty trong nước và quốc tế
                                         </span>
                                     </p>
                                 </div>
