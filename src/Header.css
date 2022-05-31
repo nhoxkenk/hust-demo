@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    border: 0;
+}
+
+.container{
+    max-width: 1260px;
+}
+
+.logo{
+    width: 226px;
+    margin-left: 0;
+    margin-right: 30px;
+}
+
+.logo img{
+    max-height: 100px;
+    padding: 5px 0;
+}
+
+.text-adjs strong{
+    line-height: 1.2;
+    letter-spacing: .05em;
+    font-size: 18px;
+}
+
+ul > li{
+    list-style: none;
+}
+
+.img-example{
+    font-size: .85em;
+    margin-bottom: 12px;
+}
+
+.search-bar .form-control{
+    border-radius: 100px;
+    box-shadow: none;
+    height: 30px;
+    width: 200px;
+}
+
+.header-nav{
+    background-color: #363636;
+    border-top: 7px solid rgb(190, 15, 15);
+}
+
+.nav-link-style{
+    font-size: 14px;
+    color: #fff !important;
+    padding: 10px 14px !important;
+    border-right: 1px solid #555;
+    border-left: 1px solid #555;
+}
+
+.icon-header{
+    color: #fff !important;
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 0.2em;
+    opacity: .6;
+}
+
+.navbar-nav > li > a{
+    font-family: "Roboto", sans-serif;
+    line-height: 18px;
+}
+
+.carousel-item img {
+    background: cover;
+}
+
+#carouselExampleIndicators{
+    border-bottom: 7px solid rgb(190, 15, 15);
+}
