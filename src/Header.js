@@ -159,16 +159,16 @@ class Header extends React.Component {
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src={"./img/carousel/slide-show-1.png"} class="d-block w-100"></img>
+              <img src={"./img/carousel/slide-show-1.png"} class="d-block w-100" alt=""></img>
             </div>
             <div class="carousel-item">
-              <img src={"./img/carousel/slide-show-1.png"} class="d-block w-100"></img>
+              <img src={"./img/carousel/slide-show-1.png"} class="d-block w-100" alt=""></img>
             </div>
             <div class="carousel-item">
-              <img src={"./img/carousel/slide-show-1.png"} class="d-block w-100"></img>
+              <img src={"./img/carousel/slide-show-1.png"} class="d-block w-100" alt=""></img>
             </div>
             <div class="carousel-item">
-              <img src={"./img/carousel/slide-show-1.png"} class="d-block w-100"></img>
+              <img src={"./img/carousel/slide-show-1.png"} class="d-block w-100" alt=""></img>
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
